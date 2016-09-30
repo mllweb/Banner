@@ -17,6 +17,8 @@ public class MainActivity extends AppCompatActivity implements BannerView.onItem
                 .addBannerPage(new BannerPage(R.mipmap.ic_launcher))
                 .addBannerPage(new BannerPage(R.mipmap.ic_launcher))
                 .addBannerPage(new BannerPage(R.mipmap.ic_launcher))
+                .addBannerPage(new BannerPage(R.mipmap.ic_launcher))
+                .addBannerPage(new BannerPage(R.mipmap.ic_launcher))
                 .setOnItemClickListener(this)
                 .show();
     }
